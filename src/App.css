@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #100f17;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+    .foto-perfil {
+        background-color: #ff0;
+        height: 7vh;
+        width: 15%;
+        border-radius: 1000px;
+        
+    }
+}
