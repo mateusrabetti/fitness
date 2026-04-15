@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import user from './assets/user.png'
 import './App.css'
 
 export default function App() {
@@ -7,8 +7,8 @@ export default function App() {
     <>
       <main> 
         <header>
-          <div className='foto-perfil'>
-            <img src="" alt="" />
+          <div className='perfil'>
+            <img src={user} alt="" className='foto-perfil'/>
           </div>
 
           <div>
@@ -56,10 +56,10 @@ export default function App() {
           </div>
 
           <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="">All</a>
+            <a href="">Cardio</a>
+            <a href="">Weigth</a>
+            <a href="">Muscle</a>
           </div>
         </section>
 
